@@ -15,7 +15,7 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "src/app/profile.tsx:(Tabs)",
     "nativewind-env.d.ts"
-  ]
+  ],
+  "exclude": ["node_modules", "example", ".expo", "dist", "**/node_modules/**"]
 }

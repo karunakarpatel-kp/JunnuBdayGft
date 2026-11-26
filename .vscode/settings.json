@@ -1,7 +1,25 @@
 {
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-    "source.organizeImports": "explicit",
-    "source.sortMembers": "explicit"
-  }
+  "tailwindCSS.experimental.classRegex": [
+    ["className=\"([^\"]*)\""],
+    ["className=\\{[\"'`]([^\"'`]*)[\"'`]\\}"],
+    ["className=\\{cn\\(([^)]*)\\)"],
+    ["tw\\(`([^`]*)\\)"],
+    ["tw\\(\"([^\"]*)\"\\)"],
+    ["tw\\(\\'([^\\']*)\\'\\)"]
+  ],
+  "tailwindCSS.classAttributes": ["className", "class"],
+  "tailwindCSS.files.exclude": [
+    "**/node_modules/**",
+    "**/.expo/**",
+    "**/dist/**"
+  ],
+  "editor.quickSuggestions": {
+    "strings": true,
+    "comments": true,
+    "other": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false
 }

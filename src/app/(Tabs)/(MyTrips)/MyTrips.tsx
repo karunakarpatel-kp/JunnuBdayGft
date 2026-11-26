@@ -5,7 +5,7 @@ const MyTripsScreen = () => {
   return (
     <View>
       <Text>Here is the Booking Screen...!</Text>
-      <Link href={"/(Home)/"}>Link To Home Screen</Link>
+      <Link href="/(Tabs)/(Home)">Link To Home Screen</Link>
     </View>
   );
 };
