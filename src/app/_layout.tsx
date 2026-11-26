@@ -2,6 +2,8 @@ import { Stack } from "expo-router";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { Provider } from "react-redux";
 
+import "../../global.css";
+
 import centralStore from "../../Store/CentralStore";
 
 const RootLayout = () => {

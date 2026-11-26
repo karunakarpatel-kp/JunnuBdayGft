@@ -4,7 +4,10 @@
     "strict": true,
     "paths": {
       "@/*": ["./src/*"],
-      "@/assets/*": ["./assets/*"]
+      "@/assets/*": ["./assets/*"],
+      "@/Components/*": ["./Components/*"],
+      "@/Store/*": ["./Store/*"],
+      "@/Slices/*": ["./Store/Slices/*"]
     }
   },
   "include": [
@@ -12,6 +15,7 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "src/app/profile.tsx:(Tabs)"
+    "src/app/profile.tsx:(Tabs)",
+    "nativewind-env.d.ts"
   ]
 }

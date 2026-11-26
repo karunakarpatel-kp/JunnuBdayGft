@@ -1,9 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
-
 import { useDispatch, useSelector } from "react-redux";
 
+import counterSlice from "./Slices/counterSlice";
+
 const centralStore = configureStore({
-  reducer: {},
+  reducer: {
+    counter: counterSlice,
+  },
 });
 
 export default centralStore;

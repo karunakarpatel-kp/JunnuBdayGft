@@ -3,10 +3,12 @@ import { View, Text, StyleSheet } from "react-native";
 
 const HomeScreen = () => {
   return (
-    <View>
-      <Text>Here is the Home Screen Which is Inside Tabs Folder </Text>
-      <Link href={"/Bus/busId"} style={styles.link}>
-        Go to Bus Id Page.
+    <View className="flex-1 bg-white dark:bg-black p-6">
+      <Text className="text-gray-900 dark:text-white text-lg mb-4">
+        Here is the Home Screen Which is Inside Tabs Folder
+      </Text>
+      <Link href={"/Bus/busId"}>
+        <Text className="py-5 text-red-500 text-3xl font-bold">Go to Bus Id Page.</Text>
       </Link>
       <Link href={"/Route/route"} style={styles.link}>
         Go to Root Page.
