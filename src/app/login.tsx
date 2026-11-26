@@ -6,7 +6,7 @@ export default function LoginScreen() {
   const [loggedIn, setLoggedIn] = useState(true);
 
   if (loggedIn) {
-    router.push("/(Tabs)/(Home)/");
+    router.push("/");
   }
 
   return (

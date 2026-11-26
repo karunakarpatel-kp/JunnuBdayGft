@@ -42,24 +42,20 @@ const TabsRootLayout = () => {
           }}
         />
         <Tabs.Screen
-          name="(Bookings)/bookings"
+          name="(MyTrips)/MyTrips"
           options={{
-            title: "Bookings",
+            title: "MyTrips",
             tabBarIcon: ({ color, size }: any) => (
-              <Ionicons name="bookmark-outline" color={color} size={size} />
+              <Ionicons name="trail-sign-outline" color={color} size={size} />
             ),
           }}
         />
         <Tabs.Screen
-          name="(Profile)/profile"
+          name="(More)/More"
           options={{
-            title: "Profile",
+            title: "More",
             tabBarIcon: ({ color, size }: any) => (
-              <Ionicons
-                name="person-circle-outline"
-                color={color}
-                size={size}
-              />
+              <Ionicons name="menu-outline" color={color} size={size} />
             ),
           }}
         />

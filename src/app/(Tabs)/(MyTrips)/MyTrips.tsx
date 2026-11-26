@@ -1,7 +1,7 @@
 import { Link } from "expo-router";
 import { View, Text } from "react-native";
 
-const BookingScreen = () => {
+const MyTripsScreen = () => {
   return (
     <View>
       <Text>Here is the Booking Screen...!</Text>
@@ -10,4 +10,4 @@ const BookingScreen = () => {
   );
 };
 
-export default BookingScreen;
+export default MyTripsScreen;
